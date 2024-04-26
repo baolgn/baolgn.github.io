@@ -1,0 +1,369 @@
+body {
+    font-family: 'Rubik';
+    background: #fffff2;
+    color: #fffff2;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fffff2;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 36px;
+    margin-top: -10px;
+    font-weight: 700;
+    background: #fffff2;
+}
+
+h2 {
+    font-family: 'Croissant One', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    color: #000;
+    background: #fffff2;
+    margin-bottom: 280px;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    color: #000;
+}
+
+nav .home-btn {
+    border: none;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    background: #000;
+    background: transparent;
+    text-shadow: 0.4px 0.4px 0px #e0e0e0,
+        0.8px 0.8px 0px #e0e0e0,
+        1.2px 1.2px 0px #e0e0e0,
+        1.6px 1.6px 0px #e0e0e0,
+        2px 2px 0px #e0e0e0,
+        2.4px 2.4px 0px #e0e0e0,
+        2.8px 2.8px 0px #e0e0e0,
+        3.2px 3.2px 0px #e0e0e0,
+        3.6px 3.6px 0px #e0e0e0,
+        4px 4px 0px #e0e0e0;
+    margin: 0px 45px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+nav .home-btn:hover {
+    transform: translateY(-2px);
+    background-position: 100% 100%;
+}
+
+nav .nav-btn {
+    border: none;
+    font-family: 'Allura';
+    font-size: 22px;
+    font-weight: 400;
+    background: #000;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+    	0deg,
+	    #fffff2,
+	    #fffff2 50%,
+	    Transparent 50%);
+	    background-size: 100% 200%;
+	    background-position: 0% 0%;
+    margin: 12.5px 50px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+nav .nav-btn:hover {
+    transform: translateY(-2px);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    background-position: 100% 100%; 
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: -5px;
+    align-items: center;
+    vertical-align: middle;
+    scroll-snap-align: start;
+}
+
+.body-container {
+    max-width: 2600px;
+    padding: 0px;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.overlay-text {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+.overlay-text h2 {
+    font-family: 'Croissant One', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.80);
+    background: transparent;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.overlay-text h3 {
+    font-family: 'Croissant One', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.70);
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.overlay-text h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    background: transparent;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.overlay-text h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+    background: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.one {
+    color: #fffff2;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://meet.nyu.edu/wp-content/uploads/2020/04/Header_Image.jpg);
+    margin: 0px;
+}
+
+.two {
+    color: #fffff2;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.ishcmc.com/wp-content/uploads/sites/4/2022/03/ISHCMC-Secondary-Campus.jpeg);
+    margin: 0px;
+}
+
+.three {
+    color: #fffff2;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://fieldingintl.com/wp-content/uploads/2022/07/Apex-view-scaled-e1669244262632.jpg);
+    margin: 0px;
+}
+
+.four {
+    color: #fffff2;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://fieldingintl.com/wp-content/uploads/2022/07/Apex-view-scaled-e1669244262632.jpg);
+    margin: 0px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.timeline {
+    position: relative;
+    justify-content: center;
+    max-width: 1700px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 105%;
+    background: #000;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+.career-container-box {
+    padding: 10px 0px;
+    position: relative;
+    max-width: 800px;
+}
+
+.career-container-textbox {
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #fffff2;
+    -webkit-box-shadow: 8px 8px 34px #d9d9ce, -8px -8px 34px #ffffff;
+    box-shadow: 8px 8px 34px #d9d9ce, -8px -8px 34px #ffffff;
+    padding: 25px 0px 30px 30px;
+    width: 100%;
+    margin: 5px auto;
+    align-items: center;
+    transition: transform 0.15s ease-in-out;
+}
+
+.left-container {
+    left: 0;
+}
+
+.right-container {
+    left: 53%;
+}
+
+.left-container::after,
+.right-container::after {
+    content: '';
+    position: absolute;
+    width: 6.25%; /* Adjust distance from the timeline */
+    height: 6px;
+    background-color: #000; /* Adjust color as needed */
+    top: 50%;
+    z-index: -1;
+}
+
+.left-container::after {
+    left: 100%;
+}
+
+.right-container::after {
+    right: 100%;
+}
+
+.timeline h3 {
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.timeline h4 {
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.timeline h5 {
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.timeline li {
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+}
+
+.container {
+    width: 200%;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    position: relative;
+    background-color: #fff;
+    padding-top: 15px;
+    z-index: 1
+}
+
+.footer p {
+    margin-right: 1px;
+    color: #000;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.footer ul li a {
+    font-size: 14px;
+    opacity: 0.7;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer ul li a:hover {
+    opacity: 1;
+}
